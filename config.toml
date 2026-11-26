@@ -7,3 +7,18 @@ disableKinds = ["taxonomy", "term"]
 [params]
   description = "Les gestes essentiels pour réagir à une cyberattaque dans une PME en Suisse romande."
 
+[[menu.main]]
+  name = "Diagnostic"
+  url = "/outils-diagnostic/"
+  weight = 1
+
+[[menu.main]]
+  name = "Plan d'urgence"
+  url = "/plan-urgence/"
+  weight = 2
+
+[[menu.main]]
+  name = "Contacts d'urgence"
+  url = "/contacts-urgence/"
+  weight = 3
+

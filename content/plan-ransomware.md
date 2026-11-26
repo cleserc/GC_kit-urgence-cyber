@@ -6,6 +6,8 @@ weight = 2
 
 # Plan d'action ransomware
 
+Ce plan détaillé complète le [cycle du plan d'urgence]({{< relref "plan-urgence/2-repondre" >}}), en particulier son étape 2 : répondre.
+
 Suivez ces étapes dans l'ordre. Demandez à une personne de tenir un journal des événements : heure, appareil, action entreprise et personne contactée. Ne réutilisez pas un appareil possiblement compromis pour vos appels ou vos changements de mots de passe.
 
 1. **Isolez les appareils touchés.** Désactivez le Wi-Fi et débranchez le câble réseau. Déconnectez aussi les disques externes et les supports de sauvegarde qui ne sont pas déjà affectés. **Ne les éteignez pas** : laissez l'informaticien décider de la suite. N'effacez rien et ne tentez pas de réinstaller les machines.

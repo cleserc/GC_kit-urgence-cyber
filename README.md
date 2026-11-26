@@ -1,7 +1,7 @@
 # Kit d'urgence cyber — PME suisses
 
 Site statique Hugo en français pour aider les PME suisses romandes à réagir à un incident cyber.
-Il rassemble des fiches d'action, les contacts utiles et un modèle minimal de registre des traitements LPD.
+Il rassemble des outils de diagnostic, un cycle de gestion de crise, les contacts utiles et des fiches d'action, dont un modèle minimal de registre des traitements LPD.
 Le contenu est gratuit et réutilisable sous licence CC BY-SA 4.0.
 
 ## Contribuer
