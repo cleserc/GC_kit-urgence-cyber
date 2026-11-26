@@ -1,0 +1,9 @@
+baseURL = "https://urgence.guidecyber.ch"
+languageCode = "fr-ch"
+defaultContentLanguage = "fr-ch"
+title = "Kit d'urgence cyber — PME suisses"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  description = "Les gestes essentiels pour réagir à une cyberattaque dans une PME en Suisse romande."
+

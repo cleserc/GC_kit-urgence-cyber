@@ -1,0 +1,32 @@
+name: Déployer le site Hugo
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: "0.125.0"
+          extended: true
+
+      - name: Générer le site
+        run: hugo --minify
+
+      - name: Publier sur GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
